@@ -108,5 +108,6 @@ def create_app(
 
     db.session.commit()
 
+    #import pdb; pdb.set_trace()
     # Send app instance
     return app
